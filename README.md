@@ -3,8 +3,8 @@
 **Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412107** phandung1349 (tên tài khoản github)
+* [ ] **1312004** 1312004 (tên tài khoản github)
 
 URL: **URL hosting của bài tập**
 
