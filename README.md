@@ -22,7 +22,7 @@ Làm việc nhóm:
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 ## Mô tả nghiệp vụ chung ứng dụng
-Phần mô tả đặt vào đây
+App chat real time.
 
 ## Lập trình server
 ### MVC
