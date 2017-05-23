@@ -23,7 +23,7 @@ Làm việc nhóm:
 
 ## Mô tả nghiệp vụ chung ứng dụng
 App chat real time.
-
+Chơi game HTML5
 ## Lập trình server
 ### MVC
 * [x] MVC (MSSV1)
