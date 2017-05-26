@@ -1,7 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser')
 var session = require('express-session');
-// var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 module.exports = function(app){
 	app.use(express.static('public'));
