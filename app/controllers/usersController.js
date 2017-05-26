@@ -8,7 +8,7 @@ var usersController = {
      if(req.session.email) {
        users.getNoneFriends(req.session.email, function(err, result){
          if(err){
-           res.render('users/users',
+           res.render('users',
               {
                  title: 'users',
                  Welcome: 'Error query',
@@ -21,7 +21,7 @@ var usersController = {
            console.log(result.rows)
            users.getFriends(req.session.email, function(err, result1){
              if(err){
-               res.render('users/users',
+               res.render('users',
                   {
                      title: 'users',
                      Welcome: 'Error query',
@@ -32,7 +32,7 @@ var usersController = {
              }
              else {
                console.log(result1.rows)
-               res.render('users/users',
+               res.render('users',
                   {
                      title: 'users',
                      page: 'users',

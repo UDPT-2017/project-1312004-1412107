@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-    <script src="components/jquery/dist/jquery.min.js"></script>
-    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="lab01.css">
+    <title><%-title%></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-
   <body>
-
     <div class="image-logo">
-      <img src="Images/icon-mychat.png">
+      <img src="photos/app-icon.png">
     </div>
 
     <nav class="navbar navbar-inverse">
@@ -24,7 +22,7 @@
       </div>
     </nav>
     <div class="">
-      <h4 style="color: red">{{Welcome}}</h4>
+      <h4 style="color: red"><%-Welcome%></h4>
     </div>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -36,13 +34,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">MyChat</a>
+          <a class="navbar-brand" href="#">realchat</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav nav-pills">
             <li role="presentation"><a href="/">Home</a></li>
             <li role="presentation" class="active"><a href="/messages">Messages</a></li>
-            <li role="presentation"><a href="/about">About</a></li>
             <li role="presentation"><a href="/users">Users</a></li>
            </ul>
         </div>
@@ -69,7 +66,6 @@
         </div>
       </div>
     </div>
-
-    {{>footer}}
+    <%- include footer.ejs %>
   <body>
 </html>

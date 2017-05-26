@@ -1,9 +1,7 @@
-var exphbs  = require('express-handlebars');
+
 var path = require('path');
 var bodyParser = require('body-parser');
 var session = require('express-session');
-// var helpers = require('app/helpers/ifCond');
-
 
 //require helpers
 // helpers = require('../app/helpers');
@@ -18,4 +16,5 @@ module.exports = function(app){
 	// }));
 	app.set('view engine', 'ejs');
 	app.set('views', path.resolve('app/views'));
+	// app.set('views', path.join(__dirname, 'views'));
 }

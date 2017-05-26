@@ -1,5 +1,4 @@
-{{>header}}
-<h4 style="color: red">{{messageWelcome}}</h4>
+<%- include header.ejs %>
 <div class="navbar-text"></div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -11,13 +10,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MyChat</a>
+      <a class="navbar-brand" href="#">realchat</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav nav-pills">
     	  <li role="presentation"><a href="/">Home</a></li>
     	  <li role="presentation"><a href="/messages">Messages</a></li>
-    	  <li role="presentation"><a href="/about">About</a></li>
     	  <li role="presentation"><a href="/users">Users</a></li>
 	     </ul>
     </div>
@@ -25,9 +23,8 @@
 </nav>
 
 <div class="content">
-  <h3>{{message}} {{messagecheckSignin}}</h3> </br>
+  <h3><%-message%></h3></br>
     <form class="form-horizontal" action="" method="post">
-
       <div class="form-group">
         <label class="control-label col-sm-2" for="email">Email *</label>
         <div class="col-sm-6">
@@ -42,15 +39,11 @@
         </div>
       </div>
 
-      </div>
-
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-6">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
-
     </form>
 </div>
-
-{{>footer}}
+<%- include footer.ejs %>

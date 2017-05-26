@@ -3,7 +3,7 @@ var messagesController = {
      let Welcome;
       if(req.session.email) {
         Welcome = 'Welcome ' + req.session.email + ' to mychat';
-        res.render('messages/messages',
+        res.render('messages',
            {
               title: 'Messages',
               message: Welcome,
