@@ -8,83 +8,79 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="navbar-wrapper">
-      <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top">
-          <div class="container">
-              <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+
+    <div class="menu">
+        <form action="/hms/accommodations" method="POST"> 
+            <div class="row searchbox">
+                <div class="col-xs-6 col-md-5">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Logo</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#" class="">Home</a></li>
-                        <li class=" dropdown">
-                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">View Departments</a>
-                                </li>
-                                <li><a href="#">Add New</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="addnew.html">Add New</a></li>
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Managers <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">View Managers</a></li>
-                                <li><a href="#">Add New</a></li>
-                            </ul>
-                        </li>
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">View Staff</a></li>
-                                <li><a href="#">Add New</a></li>
-                                <li><a href="#">Bulk Upload</a></li>
-                            </ul>
-                        </li>
-                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HR <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change Time Entry</a></li>
-                                <li><a href="#">Report</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right">
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Signed in as  <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Change Password</a></li>
-                                <li><a href="#">My Profile</a></li>
-                            </ul>
-                        </li>
-                        <li class=""><a href="../signout">Logout</a></li>
-                    </ul>
+                </div>
                 </div>
             </div>
-          </nav>
+        </form>
+        <div class="back">
+            <i class="fa fa-chevron-left"></i>
+            <img src="https://i.imgur.com/ DY6gND0.png" draggable="false"/>
         </div>
+        <div class="name">Alex</div>
     </div>
+    
     <div id="messenger-wrapper">
-      <div id="left">
-        <h4 style="text-align: center">Messenger</h4>
-        <div id="each-messenger">
-          ...
+        <div id="messenger-header">
+            <div id="messenger">
+                <h4 style="text-align: center">Messenger</h4>
+            </div>
         </div>
-      </div>
+        <div id="messengers">
+           <div id="each-messenger">
+            .......................................
+          </div>
+        </div>
 
-      <div id="middle">
-        <div id="name-middle">123...</div>
-        <div id="active-middle">123...</div>
-      </div>
-
-      <div id="right">
-        <div id="name-middle">...</div>
-        <div id="active-middle">...</div>
-      </div>
+        <ol class="chat">
+            <li class="other">
+                <div class="avatar"><img src="https://i.imgur.com/DY6gND0.png" draggable="false"/></div>
+              <div class="msg">
+                <p>Hola!</p>
+                <p>Te vienes a cenar al centro? <emoji class="pizza"/></p>
+                <time>20:17</time>
+              </div>
+            </li>
+            <li class="self">
+                <div class="avatar"><img src="https://i.imgur.com/HYcn9xO.png" draggable="false"/></div>
+              <div class="msg">
+                <p>Puff...</p>
+                <p>Aún estoy haciendo el contexto de Góngora... <emoji class="books"/></p>
+                <p>Mejor otro día</p>
+                <time>20:18</time>
+              </div>
+            </li>
+            <li class="other">
+                <div class="avatar"><img src="https://i.imgur.com/DY6gND0.png" draggable="false"/></div>
+              <div class="msg">
+                <p>Qué contexto de Góngora? <emoji class="suffocated"/></p>
+                <time>20:18</time>
+              </div>
+            </li>
+            <li class="self">
+                <div class="avatar"><img src="https://i.imgur.com/HYcn9xO.png" draggable="false"/></div>
+              <div class="msg">
+                <p>El que mandó Marialu</p>
+                <p>Es para mañana...</p>
+                <time>20:18</time>
+              </div>
+            </li>
+        </ol>
+        <div id="messenger-other-infor">
+            <div id="name-middle">aaaa</div>
+            <div id="active-middle">aaaa</div>
+        </div>
     </div>
   <body>
 </html>
