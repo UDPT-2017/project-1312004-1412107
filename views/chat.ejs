@@ -10,36 +10,59 @@
   <body>
 
     <div class="menu">
-        <form action="/hms/accommodations" method="POST"> 
-            <div class="row searchbox">
-                <div class="col-xs-6 col-md-5">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
-                <div class="input-group-btn">
-                    <button class="btn btn-primary" type="submit">
+        <div class="searchbox">
+            <form action="#" method="POST"> 
+                    <div class="col-xs-6 col-md-5">
+                    <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search messenger" id="txtSearch"/>
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">
                         <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                </div>
-                </div>
-                </div>
-            </div>
-        </form>
-        <div class="back">
-            <i class="fa fa-chevron-left"></i>
-            <img src="https://i.imgur.com/ DY6gND0.png" draggable="false"/>
+                        </button>
+                    </div>
+                    </div>
+                    </div>
+            </form>    
         </div>
-        <div class="name">Alex</div>
+        <i class="fa fa-chevron-left"></i>
+        <img src="jungyun.jpg" draggable="true"/>
+        <button type="button" class="btn btn-primary" id="btnFriends">Friends</button>
+        <button type="button" class="btn btn-primary" id="btnUsers">Users</button>
+        <button type="button" class="btn btn-primary" id="btnGame"><span class="glyphicon glyphicon-headphones"></span></button>
+
+        <div class="btn-group pull-right" id="dropdown-wrapper">
+        <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <ul class="dropdown-menu slidedown">
+                <li><a href="#"><span class="glyphicon glyphicon-refresh">
+                </span>Refresh</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-ok-sign">
+                </span>Available</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-remove">
+                </span>Busy</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-time"></span>
+                    Away</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><span class="glyphicon glyphicon-off"></span>Sign Out</a></li>
+            </ul>
+        </div>
+
+
     </div>
     
     <div id="messenger-wrapper">
         <div id="messenger-header">
-            <div id="messenger">
+            <div id="messenger-title">
                 <h4 style="text-align: center">Messenger</h4>
             </div>
+            <div class="name">Alex</div>
+            <div class="last">18:09</div>
         </div>
         <div id="messengers">
            <div id="each-messenger">
-            .......................................
+            <div class="name">Alex</div>
+            <div class="last">18:09</div>
           </div>
         </div>
 
@@ -78,8 +101,8 @@
             </li>
         </ol>
         <div id="messenger-other-infor">
-            <div id="name-middle">aaaa</div>
-            <div id="active-middle">aaaa</div>
+            <div class="name">Alex</div>
+            <div class="last">18:09</div>
         </div>
     </div>
   <body>

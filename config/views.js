@@ -15,6 +15,6 @@ module.exports = function(app){
 	//   //  helpers: helpers
 	// }));
 	app.set('view engine', 'ejs');
-	app.set('views', path.resolve('app/views'));
+	app.set('views', path.resolve('./views'));
 	// app.set('views', path.join(__dirname, 'views'));
 }
