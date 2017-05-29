@@ -11,6 +11,10 @@ module.exports = function(app){
 
 	app.get('/friends', controllers.profile.profile);
 
+	app.get('/users', controllers.users.users);
+
+	app.get('/gameupdown', controllers.gameupdown.gameupdown);
+
 	app.get('/signout',  controllers.signout.signout);
 
 }
