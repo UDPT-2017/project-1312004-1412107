@@ -1,5 +1,4 @@
 
-
 var controllers = require('../controllers');
 
 module.exports = function(app){
