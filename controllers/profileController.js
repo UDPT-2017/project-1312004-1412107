@@ -1,16 +1,15 @@
 const upload = require('../config/multer');
 var profileController = {
-    profile: (req, res) => {
+    index: (req, res) => {
         res.render('profile', {
             title: 'profile',
         });
     },
     setting: (req, res) => {
-        upload.single('profile'), (req, res) => {
-          console.log(req.body, req.file);
-          res.send('UPLOAD THANH CONG');
-        };
+        upload(req, res, function(err) {
+            console.log(req.body, req.file);
+            res.end('File is uploaded successfully')
+        })
     }
 };
-
 module.exports = profileController;

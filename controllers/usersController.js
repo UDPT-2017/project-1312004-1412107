@@ -1,5 +1,5 @@
 var usersController = {
-   users: function (req, res) {
+   index: (req, res) => {
       // if(req.session.email) {
         
       // }
@@ -12,5 +12,4 @@ var usersController = {
            });
     },
 };
-
 module.exports = usersController;

@@ -7,7 +7,5 @@ var config = {
   max: process.env.DB_MAX_POOL,
   min: process.env.DB_MIN_POOL,
   idleTimeoutMillis: process.env.DB_IDLE_TIMEOUT,
-  // how long a client is allowed to remain idle before being closed
 };
-
 module.exports = config;

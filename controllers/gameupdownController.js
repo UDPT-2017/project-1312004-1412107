@@ -1,5 +1,5 @@
 var gameupdownController = {
-   gameupdown: function (req, res) {
+   index: (req, res) => {
       // if(req.session.email) {
         
       // }
@@ -12,5 +12,4 @@ var gameupdownController = {
            });
     },
 };
-
 module.exports = gameupdownController;

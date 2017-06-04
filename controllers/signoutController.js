@@ -1,7 +1,7 @@
 var bodyParser = require('body-parser')
 var session = require('express-session');
 var signoutController = {
-  signout: function(req, res){
+  index: (req, res) => {
     req.session.destroy(function(err) {
       if(err) {
         console.log(err);

@@ -2,7 +2,7 @@ var signup = require('../models/signup');
 var bodyParser = require('body-parser');
 
 var homeController = {
-  showFormSignup: function(req, res){
+  index: (req, res) => {
     res.render('home',
        {
           title: 'Realchat Log In or Sign Up',

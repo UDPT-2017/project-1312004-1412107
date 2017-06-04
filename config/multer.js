@@ -1,5 +1,4 @@
 const multer = require('multer');
-
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, '../public/profile')
@@ -10,6 +9,6 @@ const storage = multer.diskStorage({
   }
 })
 
-const upload = multer({ storage });
+const upload = multer({ storage }).single('profile');
 
 module.exports = upload;

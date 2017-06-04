@@ -1,10 +1,9 @@
 var friendsController = {
-   friends: function (req, res) {
-      res.render('profile',
+   index: (req, res) => {
+      res.render('friends',
            {
-              title: 'profile',
+              title: 'friends',
            });
     },
 };
-
 module.exports = friendsController;

@@ -1,5 +1,5 @@
 var chatController = {
-   chat: function (req, res) {
+   index: (req, res) => {
       // if(req.session.email) {
         
       // }
@@ -13,5 +13,4 @@ var chatController = {
            });
     },
 };
-
 module.exports = chatController;
