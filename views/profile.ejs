@@ -2,15 +2,14 @@
 <html>
 <head>
 	<title><%-title%></title>
-	<script src="jquery-3.2.0.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
-	<div class="container">
-  		<form role="form" class="form-inline" method="POST" action="">
+	<!-- <div class="container">
+  		<form role="form" class="form-inline" method="POST" action="/setting" enctype="multipart/form-data">
 	        <fieldset>
 	          	<h2>Setting profile</h2>
 	          	<hr class="colorgraph">
@@ -28,6 +27,13 @@
 	          	</div>
 	        </fieldset>
       	</form>
-	</div>
+	</div> -->
+	<form action="/setting" method="POST" enctype="multipart/form-data">
+            <input type="text" name="username" placeholder="Enter your name">
+            <br /><br />
+            <input type="file" name="profile">
+            <br /><br />
+            <button>Upload</button>
+        </form>
 </body>
 </html>

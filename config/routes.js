@@ -7,7 +7,7 @@ module.exports = function(app){
 	app.get('/chat', controllers.chat.index);
 
 	app.get('/profile', controllers.profile.index);
-	app.post('/profile', controllers.profile.setting);
+	app.post('/setting', controllers.profile.setting);
 
 	app.get('/friends', controllers.friends.index);
 
