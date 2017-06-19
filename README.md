@@ -26,7 +26,6 @@ Làm việc nhóm:
 * App chat real time. Cho phép người dùng chat real time. Người dùng cần đăng ký tài khoản trước khi chat. Đăng ký bằng email và mật khẩu. 
 * Người dùng có thể chat cá nhân hoặc chat với nhóm. Sau khi các người dùng off thì các tin nhắn vẫn còn lưu lại. Khi người dùng đăng nhập lại thì có thể đọc các tin đã nhắn.
 * Ứng dụng tích hợp chơi game HTML5.
-* 
 * 1 nút hiển thị danh sach bạn bè, cho phép Remove.
 * 1 nút hiển thị danh sách người dùng. Cho phép Add(nếu chưa là bạn) hoặc Remove(nếu đã bạn).
 
