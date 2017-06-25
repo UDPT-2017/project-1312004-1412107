@@ -8,11 +8,11 @@ const homeController = {
         });
     },
     checkSignup: (req, res) => {
-        const email = req.body.email;
-        const name = req.body.name;
-        const password = req.body.password;
+        var email = req.body.email;
+        var name = req.body.name;
+        var password = req.body.password;
         // console.log(req.body)
-        signup.checkExistEmail(email, (err, result) => {
+        signup.isExist(email, (err, result) => {
             if (err) {
                 res.render('home', {
                     title: 'Realchat Log In or Sign Up',
@@ -28,7 +28,7 @@ const homeController = {
                         message: 'Email existed'
                     });
                 } else {
-                    signup.insertData(email, password, name, (err, result) => {
+                    signup.insert(email, password, name, (err, result) => {
                         if (err) {
                             res.render('home', {
                                 title: 'Realchat Log In or Sign Up',
