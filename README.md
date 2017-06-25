@@ -23,7 +23,7 @@ Làm việc nhóm:
 
 ## Mô tả nghiệp vụ chung ứng dụng
 * Tất cả chức năng phải đăng nhập thành công rồi mới thực hiện được.
-* App chat real time. Cho phép người dùng chat real time. Người dùng cần đăng ký tài khoản trước khi chat. Đăng ký bằng email và mật khẩu. 
+* App chat real time. Cho phép người dùng chat real time. Người dùng cần đăng ký tài khoản trước khi chat. Đăng ký bằng email, tên và mật khẩu. 
 * Người dùng có thể chat cá nhân hoặc chat với nhóm. Sau khi các người dùng off thì các tin nhắn vẫn còn lưu lại. Khi người dùng đăng nhập lại thì có thể đọc các tin đã nhắn.
 * Ứng dụng tích hợp chơi game HTML5.
 * 1 nút hiển thị danh sach bạn bè, cho phép Remove.
@@ -32,10 +32,10 @@ Làm việc nhóm:
 
 ## Lập trình server
 ### MVC
-* [x] MVC (MSSV1)
-* [x] Config (MSSV1)
-* [x] REST routing (MSSV1)
-* [x] Layout & partial (MSSV1)
+* [x] MVC (1412107)
+* [x] Config (1412107)
+* [x] REST routing (1412107)
+* [x] Layout & partial (1412107)
 
 ### Lập trình dữ liệu
 * [x] Thêm (MSSV1)
@@ -63,9 +63,9 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] AJAX (MSSV1)
 
 ## Bảo mật
-* [ ] Chứng thực (MSSV1)
+* [ ] Chứng thực (1412107)
 * [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
-   * [x] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
+   * [x] Không cho phép thao tác vào trang web khi không có quyền (1412107)
    * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
    * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (MSSV1)
 
@@ -74,7 +74,8 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 
 ## Chức năng đã thực hiện
 Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)
-* [ ] Yêu cầu 1. (MSSV1)
+* [x] Cho phép đăng ký, đăng nhập, kiểm tra đăng nhập. (1412107)
+* [x] Chơi game HTML5. (1412107)
 
 
 ## Demo
