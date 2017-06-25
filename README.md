@@ -8,7 +8,7 @@ Thành viên:
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 
-URL: **URL hosting của đề tài**
+URL: **https://project-1312004-1412107.herokuapp.com/**
 Báo cáo: **URL Github Page của đề tài**
 
 ## Yêu cầu
